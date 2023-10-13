@@ -225,7 +225,6 @@ configureFirewall() {
 		sleep 1
 		ufw default allow outgoing
 		ufw default deny incoming
-		ufw deny 23
 		ufw status
 		echo "Firewall has been turned on and configured." 
 		pause
